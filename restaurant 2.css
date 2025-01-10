@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+body {
+  margin: 0 auto;
+}
+header {
+  display: inline-flex;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  z-index: 2;
+  position: relative;
+}
+h1,
+h2,
+h3,
+b {
+  font-weight: normal;
+}
+.header-inner {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  padding: 30px 0px;
+  align-items: center;
+}
+.logo {
+  margin-right: auto;
+}
+.entry {
+  border-radius: 2px;
+  color: #e0e0e0;
+  text-align: center;
+  width: 78px;
+}
+.basket,
+.entry {
+  background-color: #ffffff;
+  border: none;
+}
+.create-line {
+  border: none;
+  border-bottom: 1px solid #626262;
+  padding-top: 56px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.class-moscows-restaurants {
+  padding-top: 56px;
+  font-size: 22px;
+  line-height: 34px;
+}
+.class-name-restaurants {
+  display: flex;
+  gap: 6px;
+  padding-top: 16px;
+  flex-wrap: wrap;
+  align-content: stretch;
+  height: 100%;
+  justify-content: space-between;
+}
+.class-restaurants {
+  padding-bottom: 100px;
+}
+.planet {
+  margin: 0px;
+}
+.card1 {
+  margin: 0;
+  flex-basis: 308px;
+  flex-grow: 1;
+}
+.card1:hover {
+  background-color: #dcdcdc;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 4px;
+}
+.picture {
+  width: 100%;
+}
+.name {
+  margin: 0px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1d1d1d;
+  padding-top: 16px;
+}
+.price {
+  margin: 0px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #626262;
+}
+.time {
+  margin: 0px;
+  font-size: 13px;
+  line-height: 21px;
+  color: #1d1d1d;
+  padding-bottom: 20px;
+}
+.class-info {
+  background-color: #262626;
+}
+.white-logo {
+  padding: 56px 0px;
+}
+.line-img {
+  width: 100%;
+}
+.class-contacts {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  height: 100%;
+  justify-content: space-between;
+  padding-top: 39px;
+  flex-direction: row;
+}
+.block {
+  flex-basis: 0;
+  flex-grow: 1;
+  color: #ffffff;
+}
+.langswitch {
+  padding: 12px 8px 12px 16px;
+  margin: 0px;
+  display: block;
+  border: none;
+  border-radius: 4px;
+  background: #3b3b3b;
+  width: 227px;
+  height: 40px;
+}
+.p {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: #ffffff;
+  text-decoration: none;
+}
+.networks {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+.container {
+  width: 100%;
+  max-width: 962px;
+  margin: 0px auto;
+  padding: 0px 8px;
+}
+.class-line1 {
+  padding-top: 48px;
+}
+.download {
+  gap: 40px;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: center;
+  align-self: center;
+}
+.contact {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  height: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 40px 0px;
+}
